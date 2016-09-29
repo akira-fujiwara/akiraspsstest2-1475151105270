@@ -1,4 +1,5 @@
 applications:
+<<<<<<< HEAD
 - host: akiraspsstest2
   name: akiraspsstest2
   command: node app.js
@@ -6,3 +7,14 @@ applications:
   domain: mybluemix.net
   instances: 1
   memory: 256M
+=======
+- path: .
+  memory: 256M
+  instances: 1
+  domain: fujiwarajpibmcom-myspace01.apic.mybluemix.net
+  name: akiraspsstest2
+  host: akiraspsstest2
+  disk_quota: 1024M
+  services:
+  - Predictive Analytics-3y
+>>>>>>> 0b4038e6e51fb0152150d467f2b638b0aac5922a
