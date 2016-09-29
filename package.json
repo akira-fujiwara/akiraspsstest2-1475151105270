@@ -4,14 +4,14 @@
   "description": "A Node.js app using Express delivering SPSS PM sample application 2",
   "dependencies": {
     "body-parser": "^1.15.1",
-    "express": "4.13.4",
+    "express": "^4.13.4",
     "request": "^2.72.0"
   },
   "engines": {
-    "node": "0.10.26"
+    "node": "^0.10.26"
   },
- "repository": {
+  "repository": {
     "type": "git",
-    "url": ""
-  },
+    "url": "https://github.com/akira-fujiwara/akiraspsstest2-1475151105270"
+  }
 }
